@@ -10,8 +10,12 @@
 # > docker run -p 8888:8080 -d containerdart
 
 #FROM stackbrew/ubuntu:13.10
-FROM aws_beanstalk/ubuntu:12.04
-MAINTAINER Nane Kratzke <nane@nkode.io>
+
+FROM ubuntu:13.10
+
+#FROM stackbrew/ubuntu:1310
+#FROM aws_beanstalk/ubuntu:12.04
+#MAINTAINER Nane Kratzke <nane@nkode.io>
 
 # Install Dart SDK. Do not touch this until you know what you are doing.
 # We do not install darteditor nor dartium because this is a server container.
