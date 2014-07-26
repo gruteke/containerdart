@@ -5,4 +5,4 @@ main() {
     app.static('../build/web');
     //app.static('../web');
   });
-}
+} 
